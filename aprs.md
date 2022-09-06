@@ -18,12 +18,12 @@ ADEVICE null null
 CHANNEL 0
 
 # Put your callsign here.  It is common to add "-10" to the end.
-MYCALL AG6GH-1
+MYCALL xxxxx-1
 LOGDIR /var/log/direwolf
 
 # Enter your callsign (no "-10" this time) and your passcode.
 # If you don't have one, get your passcode at http://apps.magicbug.co.uk/passcode/
-IGLOGIN AG6GH 19682
+IGLOGIN xxxxx 00000
 
 # The IGSERVER defaults to North America.
 # If you prefer a different server, use one of these:
@@ -63,3 +63,10 @@ Exec=sh -c "sudo /home/lee/igate.sh"
  ---
 
  Reboot and log into iGate
+
+---
+
+## Notes:
+
+Instructions based on the following guides
+* [CREATE A RECEIVE-ONLY APRS IGATE ON A RASPBERRY PI](https://www.regnatarajan.com/radio/create-aprs-receive-only-igate-raspberry-pi)

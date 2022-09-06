@@ -183,3 +183,12 @@ allow 2600:8394:a947:bf::/64
 ```
 
 `sudo systemctl restart chrony.service`
+
+---
+
+## Notes:
+
+Instructions based on the following guides:
+
+* [NTP using Raspberry Pi 4 with GPS](https://katron.org/blog/2021/10/raspberry-pi-gps/)
+* [Raspberry Pi GPS/RTC Expansion Board Datasheet](https://store.uputronics.com/files/Uputronics%20Raspberry%20Pi%20GPS%20RTC%20Board%20Datasheet%20V6.1.pdf)
