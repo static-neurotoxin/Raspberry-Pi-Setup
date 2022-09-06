@@ -18,7 +18,7 @@ add the following line
 
 edit `/etc/modules`
 
-`sudo nano /etc/modules`
+`sudo emacs /etc/modules`
 
 add the following line:
 
